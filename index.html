@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<style>
+  body{
+    background-color: rgb(166, 166, 209);
+  }
+   .btn:hover{
+        background-color:cadetblue;
+        transform:scale(1.09);
+   }
+</style>
+</head>
+<body>
+<!--Nav Bar-->
+<nav class="navbar navbar-expand-lg bg-dark-subtle">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="C:\Users\Disha j\Desktop\Ishh\ishhlogo.jpeg" alt="logo" width="80"/></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="home" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#PopularShows">Popular Shows</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ShowBooking">Book Your Show</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ContactUs">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--carousel-->
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    
+</div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://external-preview.redd.it/aerial-view-of-bengaluru-city-v0-7jzTIh9e8U5CmUGSIv2AR8xwJmoUaVyglBW_efgZR9w.png?format=pjpg&auto=webp&s=707895414fb03400a174cccdb9658d313c2324c5" class="d-block w-100" alt="Bangalore">
+    </div>
+    <div class="carousel-item">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.EQVsah_7qmEkZFqdaUVuJAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" class="d-block w-100" alt="Mumbai">
+    </div>
+    <div class="carousel-item">
+      <img src="https://imrakesh.com/wp-content/uploads/2024/09/Untitled-design-2.png" class="d-block w-100" alt="Delhi">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.newznew.com/wp-content/uploads/2022/08/The-best-places-to-visit-in-Kolkata-Small.png?v=1660979670" class="d-block w-100" alt="kolkata">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--Main Container-->
+<div class="Container">
+    <h1 class=" text-center  p-6 mb-6 mt-6">Ramp On Today! </h1>
+
+<div class="w-100 bg-dark-subtle p-6 mb-6">
+    <p>
+        Fashion is a term used interchangeably to describe the creation of clothing, footwear, accessories, cosmetics, and jewellery of different cultural aesthetics and their mix and match into outfits that depict distinctive ways of dressing (styles and trends) as signifiers of social status, self-expression, and group belonging. As a multifaceted term, fashion describes an industry, designs, aesthetics, and trends.
+    </p>
+    <button>
+        <button type="button" class="btn btn-primary btn-lg">Book Your Show</button>
+    </button>
+</div>
+<h2 id="PopularShows" class="fs-1 p-5 mt-5 text-center">
+Popular Shows
+</h2>
+<div class="row">
+    <div class="col">
+        <!--CARD-->
+        <div class="card" style="width: 18rem;">
+  <img src="data:image/webp;base64,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" class="card-img-top" alt="Bombay Times Fashion Week">
+  <div class="card-body">
+    <h5 class="card-title">Bombay Times</h5>
+    <p class="card-text">About this Gallery
+Miss Diva Universe 2019 Vartika Singh turns showstopper for Hasttantr at the Bombay Times Fashion Week 2022.</p>
+    <a href="#https://photogallery.indiatimes.com/fashion/indian-shows/bombay-times-fashion-week-2022-day-3-hasttantr/articleshow/91234821.cms" class="btn btn-primary">Read More</a>
+  </div>
+</div>
+
+</div>
+    <div class="col">
+        <!--CARD 2-->
+        <div class="card" style="width: 18rem;">
+  <img src="https://static.sociofyme.com/photo/99207266/99207266.jpg?imgsize-151876" class="card-img-top" alt="Pune Times Fashion Week">
+  <div class="card-body">
+    <h5 class="card-title">Pune Times</h5>
+    <p class="card-text"> Punekars witness the magic of fashion and glamour in the city! As Pune Times Fashion Week 2023 showcases beauty queens donning some notables designs by Indian designers. Managed by Times Talent, these beauty queens rock the ramp in style!</p>
+    <a href="#https://www.femina.in/beauty-pageants/miss-india/beauty-queens-rock-the-ramp-at-pune-times-fashion-week-2023/eventshow/99206467.cms" class="btn btn-primary">Read More</a>
+  </div>
+</div>
+
+</div>
+    <div class="col">
+        <!--CARD 3-->
+        <div class="card" style="width: 18rem;">
+  <img src="https://static.sociofyme.com/photo/151068211/151068211.jpg?resizemode-1,imglength-000" class="card-img-top" alt="Bombay Times Fashion Week">
+  <div class="card-body">
+    <h5 class="card-title">Bombay Times</h5>
+    <p class="card-text">The Bombay Times Fashion Week, a grand and glamour-studded affair, celebrates India's top established and upcoming fashion designers. Their majestic collections, honed on the ramp, are brought to life by stunning models and celebrities, inspiring fashion aspirants and enthusiasts. It's a true spectacle, a celebration of style and attire in all its grandeur.
+The most sought-after fashion event in the country is attended by various top celebrities and designers and sets milestones each year, surpassing its own popularity and splendour. Check out former beauty queens who set the ramp ablaze with their ravishing walks, poise, and confident displays at Bombay Times Fashion Week 2024.</p>
+    <a href="#" class="btn btn-primary">Read More</a>
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="col">
+<h2 id="ShowBooking" class="fs-1 p-5 mt-5 text-center">@ BANGALORE</h2>
+<img src="https://i.ytimg.com/vi/blShHdyeFBw/maxresdefault.jpg" alt="RampWalk @ Bangalore"class="w-100  p-6 mt-6 mb-6">
+</div>
+
+<div class="col">
+  <h2 id="ShowBooking" class="fs-1 p-5 mt-5 text-center">@ MUMBAI</h2>
+<img src="https://tse4.mm.bing.net/th/id/OIP.Kv3GcJCPAzECxRgs1619NQHaE7?w=2000&h=1333&rs=1&pid=ImgDetMain&o=7&rm=3S" alt="RampWalk @ Mumbai" class="w-100 p-6 mt-6 mb-6">
+
+</div>
+
+<!--About-->
+<h2 id="About" class="fs-1 p-5 mt-5 text-center">About</h2>
+<div class="row">
+  <div class="col-6 ">
+    <div class="bg-dark-subtle text-white p-6 mt-6 mb-6">
+      <h2>BOOKINGS</h2>
+      
+    <p>
+      Designers and models can reserve their participation slots through our organized booking system. Early registration is recommended as slots are limited for each show.
+    </p>
+  </div>
+</div>
+
+ <div class="col-6 ">
+    <div class="bg-dark text-white p-6 mt-6 mb-6">
+      <h2>FEES</h2>
+      
+    <p>
+    We maintain transparent and structured fee plans based on participation type and event scale. Detailed pricing is shared during the booking process to ensure clarity and professionalism.
+    </p>
+  </div>
+</div>
+
+ <div class="col">
+    <div class="bg-dark text-white p-6 mt-6 mb-6">
+      <h2>Popular SITES</h2>
+      <p>
+Our shows are hosted at well-known and premium venues in Bangalore, selected for accessibility, ambience, and audience capacity to ensure maximum impact.
+    </p>
+  </div>
+</div>
+
+ <div class="col">
+    <div class="bg-dark-subtle text-white p-6 mt-6 mb-6">
+      <h2>FEATURES</h2>
+      
+    <p>
+Fashion Walk events include professional stage setup, runway lighting, media coverage, backstage coordination, and digital promotion to enhance brand visibility.
+    </p>
+  </div>
+</div>
+<!--contact us-->
+<h2 id="ContactUs" class="fs-1 p-5 mt-5 text-center">CONTACT US</h2>
+<div class="w-100 bg-dark text-white p-6 mb-6">
+    <pre><p>
+        For bookings, collaborations, sponsorships, or general inquiries, reach out to us:
+      📍 Bangalore, India
+      📧 info@fashionwalk.com
+      📞 +91 XXXXX XXXXX
+      Our team will respond within 24 hours.
+    </pre></div></p>
+    <button>
+        <button type="button" class="btn btn-primary btn-lg"><a href="#mail to:ranasinghedisha@gmail.com" class="text-white text-decoration-none">Contact Us For More Information</a></button>
+    </button>
+</div>
+
+
+</div>
+<!--End Of Container-->
+<br><br>
+
+<footer class="bg-dark mt-6 p-6 text-white text-center">
+  <p>
+    &copy; Show @ Bangalore
+  </p>
+  <p>
+    <a href="ranasinghedisha@gmail.com">Email Us</a>
+  </p>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+      </script>
+</body>
+</html>
